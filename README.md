@@ -74,5 +74,9 @@ aircrack-ng hack1.cap -w /home/kali/Descktop/wordlist.txt
 
 ---
 
-https://www.youtube.com/watch?v=WfYxrLaqlN8
-https://www.youtube.com/watch?v=tYnjMiTTdms
+- https://www.youtube.com/watch?v=WfYxrLaqlN8
+- https://www.youtube.com/watch?v=tYnjMiTTdms
+
+---
+
+curl "https://github.com/santosfabin/WP2/blob/main/README.md" | sed 's/[^a-zA-Z]/ /g' | tr 'A-Z ' 'a-z\n' | grep '[a-z]' | sort -u > /tmp/wordlist.txt
