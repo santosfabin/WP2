@@ -70,3 +70,9 @@ sudo iwconfig wlan mode managed
 ---
 
 aircrack-ng hack1.cap -w /home/kali/Descktop/wordlist.txt
+
+
+---
+
+https://www.youtube.com/watch?v=WfYxrLaqlN8
+https://www.youtube.com/watch?v=tYnjMiTTdms
