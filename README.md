@@ -80,3 +80,8 @@ aircrack-ng hack1.cap -w /home/kali/Descktop/wordlist.txt
 ---
 
 curl "https://github.com/santosfabin/WP2/blob/main/README.md" | sed 's/[^a-zA-Z]/ /g' | tr 'A-Z ' 'a-z\n' | grep '[a-z]' | sort -u > /tmp/wordlist.txt
+
+---
+
+- para desconpactar um arquivo .gz use
+gunzip file.txt.gz
