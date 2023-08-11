@@ -25,7 +25,6 @@ sudo iwconfig wlan0 mode monitor
 sudo ifconfig wlan0 up
 iwconfig
 ---
----
 - pegando o bssid
 
 sudo airodump-ng wlan0
@@ -83,5 +82,5 @@ curl "https://github.com/santosfabin/WP2/blob/main/README.md" | sed 's/[^a-zA-Z]
 
 ---
 
-- para desconpactar um arquivo .gz use
+- para descompactar um arquivo .gz use
 gunzip file.txt.gz
